@@ -15,6 +15,7 @@ public class MenuCalculator {
         Scanner userInput = new Scanner(System.in);
         
         while (userChoice > 0 && userChoice < 10) {
+            System.out.println("");
             System.out.println("Calculator Menu");
             System.out.println("-----------------------------------");
             System.out.println("1. Add two integers");
