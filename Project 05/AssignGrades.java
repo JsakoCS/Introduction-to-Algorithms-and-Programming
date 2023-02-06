@@ -21,6 +21,8 @@ public class AssignGrades {
         for (int i = 0; i < scores.length; i++) {
             System.out.println("Student " + i + " score is " + scores[i] + " and grade is " + grades[i]);
         }
+        
+        input.close();
     }
     
     public static int max(int[] array) {
